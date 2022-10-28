@@ -1,0 +1,6 @@
+f = open('E:\\PYTHON\\Vedha\\csv_.csv')
+print (f.read())
+f = open('E:\\PYTHON\\Vedha\\csv_.csv','w')
+f.write("good morning 1 hello everyone")
+print (f)
+f.close()
